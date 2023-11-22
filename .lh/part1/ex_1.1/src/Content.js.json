@@ -1,0 +1,74 @@
+{
+    "sourceFile": "part1/ex_1.1/src/Content.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1700142365792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1700142751442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\r\n \r\n-const Content = () => {\r\n+const Content = (props) => {\r\n   return (\r\n     <div>Content</div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1700142758276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import React from \"react\";\r\n+\r\n+const Content = (props) => {\r\n+  return <div>Content</div>;\r\n+};\r\n+\r\n+export default Content;\r\n"
+                },
+                {
+                    "date": 1700142764333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import React from 'react'\r\n+\r\n+const Content = (props) => {\r\n+  return (\r\n+    <div>\r\n+        Content\r\n+\r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default Content\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700142787010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import React from 'react'\r\n+\r\n+const Content = (props) => {\r\n+  return (\r\n+    <div>\r\n+        \r\n+\r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default Content\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700142795729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import React from 'react'\r\n+\r\n+const Content = (props) => {\r\n+  return (\r\n+    <div>\r\n+        <p>\r\n+        </p>\r\n+\r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default Content\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700142814540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import React from 'react'\r\n+\r\n+const Content = (props) => {\r\n+  return (\r\n+    <div>\r\n+        <p>{</p>\r\n+    \r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default Content\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700142825881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import React from 'react'\r\n+\r\n+const Content = (props) => {\r\n+  return (\r\n+    <div>\r\n+        <p>{props.part1} {props.</p>\r\n+    \r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default Content\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700142831137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+import React from 'react'\r\n+\r\n+const Content = (props) => {\r\n+  return (\r\n+    <div>\r\n+        <p>{props.part1} {props.exercises1}</p>\r\n+    \r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default Content\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700142839705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import React from 'react'\r\n+\r\n+const Content = (props) => {\r\n+  return (\r\n+    <div>\r\n+        <p>{props.part1} {props.exercises1}</p>\r\n+        <p>{props.part1} {props.exercises1}</p>\r\n+        <p>{props.part1} {props.exercises1}</p>\r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default Content\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700142845086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import React from 'react'\r\n+\r\n+const Content = (props) => {\r\n+  return (\r\n+    <div>\r\n+        <p>{props.part1} {props.exercises1}</p>\r\n+        <p>{props.part2} {props.exercises2}</p>\r\n+        <p>{props.part3} {props.exercises3}</p>\r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default Content\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700142876014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import React from 'react'\r\n+\r\n+const Content = (props) => {\r\n+  return (\r\n+    <div>\r\n+        <p>Part: {props.part1} {props.exercises1}</p>\r\n+        <p>{props.part2} {props.exercises2}</p>\r\n+        <p>{props.part3} {props.exercises3}</p>\r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default Content\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700142881250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import React from 'react'\r\n+\r\n+const Content = (props) => {\r\n+  return (\r\n+    <div>\r\n+        <p>Part: {props.part1} {props.exercises1}</p>\r\n+        <p>Part: {props.part2} {props.exercises2}</p>\r\n+        <p>{props.part3} {props.exercises3}</p>\r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default Content\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700142887822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\r\n     <div>\r\n         <p>Part: {props.part1} {props.exercises1}</p>\r\n         <p>Part: {props.part2} {props.exercises2}</p>\r\n-        <p>Part: {props.part3} {props.exercises3}</p>\r\n+        <p>Part: {props.part3} exercises {props.exercises3}</p>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1700142893879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\r\n     <div>\r\n         <p>Part: {props.part1} {props.exercises1}</p>\r\n         <p>Part: {props.part2} {props.exercises2}</p>\r\n-        <p>Part: {props.part3}, exercises: {props.exercises3}</p>\r\n+        <p>Part: {props.part3}, Exercises: {props.exercises3}</p>\r\n     </div>\r\n   )\r\n }\r\n \r\n"
+                }
+            ],
+            "date": 1700142365792,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nconst Content = () => {\r\n  return (\r\n    <div>Content</div>\r\n  )\r\n}\r\n\r\nexport default Content"
+        }
+    ]
+}

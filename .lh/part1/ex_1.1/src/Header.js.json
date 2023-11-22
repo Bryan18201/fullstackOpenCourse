@@ -1,0 +1,34 @@
+{
+    "sourceFile": "part1/ex_1.1/src/Header.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1700142357133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1700142539308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\r\n \r\n-const Header = () => {\r\n+const Header = (props) => {\r\n   return (\r\n     <div>Header</div>\r\n   )\r\n }\r\n"
+                },
+                {
+                    "date": 1700142598559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import React from 'react'\r\n+\r\n+const Header = (props) => {\r\n+  return (\r\n+    <div>{</div>\r\n+  )\r\n+}\r\n+\r\n+export default Header\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700142604686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\r\n \r\n const Header = (props) => {\r\n   return (\r\n-    <div>{props.</div>\r\n+    <div>{props.course}</div>\r\n   )\r\n }\r\n \r\n export default Header\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700142627945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import React from 'react'\r\n+\r\n+const Header = (props) => {\r\n+  return (\r\n+    <div>The course is: {props.course}</div>\r\n+  )\r\n+}\r\n+\r\n+export default Header\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1700142357133,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nconst Header = () => {\r\n  return (\r\n    <div>Header</div>\r\n  )\r\n}\r\n\r\nexport default Header"
+        }
+    ]
+}

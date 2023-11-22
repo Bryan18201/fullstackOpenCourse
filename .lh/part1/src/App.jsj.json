@@ -1,0 +1,30 @@
+{
+    "sourceFile": "part1/src/App.jsj",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1700094025354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1700094032100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+nfn\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700094041002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,1 @@\n-nfn\n rafce\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700094047436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +0,0 @@\n-rafce\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1700094025354,
+            "name": "Commit-0",
+            "content": "rafce"
+        }
+    ]
+}

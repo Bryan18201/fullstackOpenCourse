@@ -1,0 +1,26 @@
+{
+    "sourceFile": "part1/unicafe/src/Conten.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1700144104698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1700144295250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+/* eslint-disable react/prop-types */\r\n \r\n const Content = (props) => {\r\n     return (\r\n       <div>\r\n"
+                },
+                {
+                    "date": 1700144340005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,13 +9,13 @@\n       </div>\r\n     )\r\n   }\r\n   \r\n-  const Part = () => {\r\n-      return(\r\n-      <div>\r\n+//   const Part = () => {\r\n+//       return(\r\n+//       <div>\r\n           \r\n-      </div>\r\n-      )\r\n-  }\r\n+//       </div>\r\n+//       )\r\n+//   }\r\n   \r\n   export default Content\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1700144104698,
+            "name": "Commit-0",
+            "content": "\r\nconst Content = (props) => {\r\n    return (\r\n      <div>\r\n          <p>Part: {props.part1}, Exercises: {props.exercises1}</p>\r\n          <p>Part: {props.part2}, Exercises: {props.exercises2}</p>\r\n          <p>Part: {props.part3}, Exercises: {props.exercises3}</p>\r\n      </div>\r\n    )\r\n  }\r\n  \r\n  const Part = () => {\r\n      return(\r\n      <div>\r\n          \r\n      </div>\r\n      )\r\n  }\r\n  \r\n  export default Content"
+        }
+    ]
+}

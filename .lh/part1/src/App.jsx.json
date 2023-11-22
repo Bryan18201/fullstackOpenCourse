@@ -1,0 +1,70 @@
+{
+    "sourceFile": "part1/src/App.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1700094103160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1700094238566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,11 @@\n import React from 'react'\r\n \r\n+\r\n+const Hello = () => {\r\n+    \r\n+}\r\n+\r\n const App = () => {\r\n   return (\r\n     <div>App</div>\r\n   )\r\n"
+                },
+                {
+                    "date": 1700094252552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import React from 'react'\r\n+\r\n+\r\n+const Hello = () => {\r\n+    return(\r\n+    <div>\r\n+        \r\n+    </div>\r\n+    )\r\n+}\r\n+\r\n+const App = () => {\r\n+  return (\r\n+    <div>App</div>\r\n+  )\r\n+}\r\n+\r\n+export default App\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700094257627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n const Hello = () => {\r\n     return(\r\n     <div>\r\n-        \r\n+        <p>Hello World</p>\r\n     </div>\r\n     )\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1700094267242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import React from 'react'\r\n+\r\n+\r\n+const Hello = () => {\r\n+    return(\r\n+    <div>\r\n+        <p>Hello World</p>\r\n+    </div>\r\n+    )\r\n+}\r\n+\r\n+const App = () => {\r\n+  return (\r\n+    <div>\r\n+        <p></p>\r\n+        App\r\n+\r\n+    </div>\r\n+  )\r\n+}\r\n+\r\n+export default App\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1700094273064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import React from \"react\";\r\n+\r\n+const Hello = () => {\r\n+  return (\r\n+    <div>\r\n+      <p>Hello World</p>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+const App = () => {\r\n+  return (\r\n+    <div>\r\n+      <p>App</p>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default App;\r\n"
+                },
+                {
+                    "date": 1700094278331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,20 @@\n+import React from \"react\";\r\n+\r\n+const Hello = () => {\r\n+  return (\r\n+    <div>\r\n+      <p>Hello World</p>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+const App = () => {\r\n+  return (\r\n+    <div>\r\n+      <p>App</p>\r\n+      <Hello/>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default App;\r\n"
+                },
+                {
+                    "date": 1700140499677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,86 +8,14 @@\n   );\r\n };\r\n \r\n const App = () => {\r\n+  const name \r\n   return (\r\n     <div>\r\n       <p>App</p>\r\n-      <Hello/>\r\n+      <Hello />\r\n     </div>\r\n   );\r\n };\r\n \r\n export default App;\r\n-import React from \"react\";\r\n-\r\n-const Hello = () => {\r\n-  return (\r\n-    <div>\r\n-      <p>Hello World</p>\r\n-    </div>\r\n-  );\r\n-};\r\n-\r\n-const App = () => {\r\n-  return (\r\n-    <div>\r\n-      <p>App</p>\r\n-    </div>\r\n-  );\r\n-};\r\n-\r\n-export default App;\r\n-import React from 'react'\r\n-\r\n-\r\n-const Hello = () => {\r\n-    return(\r\n-    <div>\r\n-        <p>Hello World</p>\r\n-    </div>\r\n-    )\r\n-}\r\n-\r\n-const App = () => {\r\n-  return (\r\n-    <div>\r\n-        <p></p>\r\n-        App\r\n-\r\n-    </div>\r\n-  )\r\n-}\r\n-\r\n-export default App\n-import React from 'react'\r\n-\r\n-\r\n-const Hello = () => {\r\n-    return(\r\n-    <div>\r\n-        <p>Hello World</p>\r\n-    </div>\r\n-    )\r\n-}\r\n-\r\n-const App = () => {\r\n-  return (\r\n-    <div>App</div>\r\n-  )\r\n-}\r\n-\r\n-export default App\n-import React from 'react'\r\n-\r\n-\r\n-const Hello = () => {\r\n-    \r\n-}\r\n-\r\n-const App = () => {\r\n-  return (\r\n-    <div>App</div>\r\n-  )\r\n-}\r\n\\ No newline at end of file\n-\r\n-export default App\n"
+                },
+                {
+                    "date": 1700140504834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,10 @@\n   );\r\n };\r\n \r\n const App = () => {\r\n-  const name \r\n+  const name = 'Bryan';\r\n+  \r\n   return (\r\n     <div>\r\n       <p>App</p>\r\n       <Hello />\r\n"
+                },
+                {
+                    "date": 1700140513507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n };\r\n \r\n const App = () => {\r\n   const name = 'Bryan';\r\n+  const age = 22;\r\n   \r\n   return (\r\n     <div>\r\n       <p>App</p>\r\n"
+                },
+                {
+                    "date": 1700140523070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+import React from \"react\";\r\n+\r\n+const Hello = () => {\r\n+  return (\r\n+    <div>\r\n+      <p>Hello World</p>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+const App = () => {\r\n+  const name = 'Bryan';\r\n+  const age = 22;\r\n+\r\n+  return (\r\n+    <div>\r\n+      <p>Saludos</p>\r\n+      <Hello />\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default App;\r\n"
+                },
+                {
+                    "date": 1700140535614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+import React from \"react\";\r\n+\r\n+const Hello = () => {\r\n+  return (\r\n+    <div>\r\n+      <p>Hello World</p>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+const App = () => {\r\n+  const name = 'Bryan';\r\n+  const age = 22;\r\n+\r\n+  return (\r\n+    <div>\r\n+      <p>Saludos</p>\r\n+      <Hello \r\n+      <Hello />\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default App;\r\n"
+                },
+                {
+                    "date": 1700140546306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \r\n   return (\r\n     <div>\r\n       <p>Saludos</p>\r\n-      <Hello name=\"\"\r\n+      <Hello name=\"Jose\" age={}\r\n       <Hello />\r\n     </div>\r\n   );\r\n };\r\n"
+                },
+                {
+                    "date": 1700140554484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+import React from \"react\";\r\n+\r\n+const Hello = () => {\r\n+  return (\r\n+    <div>\r\n+      <p>Hello World</p>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+const App = () => {\r\n+  const name = 'Bryan';\r\n+  const age = 22;\r\n+\r\n+  return (\r\n+    <div>\r\n+      <p>Saludos</p>\r\n+      <Hello name=\"Jose\" age={10+10}/>\r\n+      <\r\n+      <Hello />\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default App;\r\n"
+                }
+            ],
+            "date": 1700094103160,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nconst App = () => {\r\n  return (\r\n    <div>App</div>\r\n  )\r\n}\r\n\r\nexport default App"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "sourceFile": "part1/unicafe/src/index.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1700144687094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1700145910843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,35 @@\n+const Content = () => {\n+  const part1 = \"Fundamentals of React\";\n+  const part2 = \"Using props to pass data\";\n+  const part3 = \"State of a component\";\n+\n+  const exercises1 = 10;\n+  const exercises2 = 7;\n+  const exercises3 = 14;\n+  return (\n+    <div>\n+      <Part part1={part1} exercises1={exercises1} />\n+      <Part part2={part2} exercises2={exercises2} />\n+      <Part part3={part3} exercises3={exercises3} />\n+    </div>\n+  );\n+};\n+\n+const Part = (props) => {\n+\n+  \n+  return (\n+    <div>\n+      <p>  {props.part1} {props.exercises1}\n+      </p>\n+      <p>\n+        {props.part2} {props.exercises2}\n+      </p>\n+      <p>\n+        {props.part3} {props.exercises3}\n+      </p>\n+    </div>\n+  );\n+};\n+\n+export default Content;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1700144687094,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

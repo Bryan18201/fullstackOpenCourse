@@ -1,0 +1,26 @@
+{
+    "sourceFile": "part1/unicafe/src/Header.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1700144064468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1700144072808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+\r\n+\r\n+const Header = (props) => {\r\n+  return (\r\n+    <div>\r\n+      <h1>The course is: {props.course}</h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Header;\r\n"
+                },
+                {
+                    "date": 1700144717343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+const Header = (props) => {\r\n+  return (\r\n+    <div>\r\n+      <h1>The course is: {props.course}</h1>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Header;\r\n"
+                }
+            ],
+            "date": 1700144064468,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\n\r\nconst Header = (props) => {\r\n  return (\r\n    <div>\r\n      <h1>The course is: {props.course}</h1>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Header;\r\n"
+        }
+    ]
+}
